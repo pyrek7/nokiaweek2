@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        python="C:\\'Program Files'\\Python313\\python.exe"
+        python='"C:\\Program Files\\Python313\\python.exe"'
     }
     stages {
         stage('Build') {
